@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture of Universities in England</title>
+    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="assets/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="text-box">
+        <h1>Architecture of Universities in England
+        </h1>
+        <p>Are you interested in the architecture of ancient and historic universities? <br> This article will help you to get to know them better and tell you all the aspects of the design of English universities</p>
+        <a href="" class="hero-btn">To Visit More</a>
+    </div>
+                <!-- Course -->
+                 <section class="Course">
+                    <h1>Course we Offer</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, ad!</p>
+                    <div class="row">
+                        <div class="course-col">
+                            <img src="assets/undergraduate.jpg" alt="">
+                            <h3>Undergraduate</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti error ad accusantium in eum, quibusdam aspernatur illum quae praesentium animi.</p>
+                        </div>
+                        <div class="course-col">
+                            <img src="assets/undergraduate.jpg" alt="">
+                            <h3>Postgraduate</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti error ad accusantium in eum, quibusdam aspernatur illum quae praesentium animi.</p>
+                        </div>
+                        <div class="course-col">
+                            <img src="assets/Msc.jpg" alt="">
+                            <h3>Ms, PhD</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti error ad accusantium in eum, quibusdam aspernatur illum quae praesentium animi.</p>
+                        </div>
+                    </div>
+                 </section>
+
+                 <section class="Campus">
+                    <h1>Our Global Campus</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia nulla nostrum illo? Et quam quasi cupiditate, omnis repellendus obcaecati?</p>
+                    <div class="row">
+                        <div class="campus-col">
+                            <img src="assets/uni.jpg" alt="">
+                            <div class="layer">
+                                <h3>England</h3>
+                            </div>
+                        </div>
+                    </div>
+                 </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
